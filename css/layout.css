@@ -405,6 +405,9 @@ body {
 	.navbar-form .form-group {
 		width:100px;
 	}
+	.newuser  li { margin-bottom:15px;}
+	
+	
 }
 
 /*Sidebar*/
