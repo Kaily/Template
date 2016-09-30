@@ -1961,7 +1961,7 @@ form.login {
 
 .mailapp .inbox-table .table,.mailapp .inbox-table .table-bordered>thead>tr>th,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>td {
 
-	cursor:pointer;
+
 }
 
 .mailapp .inbox-table .table-bordered>tbody>tr.active>td,.mailapp .inbox-table .table-bordered>tbody>tr.selected>td {
@@ -2703,7 +2703,7 @@ p { display:block; padding-bottom:10px;}
 .newuser  li:hover  a.dashboard-col { background:#2a76a3; display: inline-block; }
 .newuser  li  a.logout-col { background:#f36f6b; display: inline-block; }
 .newuser  li:hover  a.logout-col { background:#e4534f; display: inline-block; }
-.main-wrapper-login { background:#ebe9e9; width:100%; min-height:100%; height:100%; }
+.main-wrapper-login { background:#3ba0ff; width:100%; min-height:100%; height:100%; }
 .min_height_body { min-height:500px;}
 .ticketno_test { font-size:18px; text-align:center;}
 .popup_button{ text-align:center; display:block;}

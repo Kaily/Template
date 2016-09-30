@@ -23,7 +23,7 @@
   <div class="navbar main-header"> <a class="navbar-brand" href="index.html"> flatter </a>
     <ul class="nav navbar-nav navbar-left sidebar-toggle-ul">
       <li class="navbar-main hidden-lg hidden-md"> <a href="javascript:void(0);" id="sidebar-toggle"> <span class="meta"> <span class="icon"><i class="fa fa-bars"></i></span> </span> </a> </li>
-      <li class="navbar-main hidden-sm hidden-xs"> <a href="javascript:void(0);" id="sidebar-collapse"> <span class="meta"> <span class="icon"><i class="fa fa-outdent"></i></span> </span> </a> </li>
+      <li class="navbar-main hidden-sm hidden-xs"> <a href="javascript:void(0);" id="sidebar-collapse"> <span class="meta"> <span class="icon"><i class="fa fa-bars"></i></span> </span> </a> </li>
     </ul>
     <ul class="nav navbar-nav navbar-left">
       <form class="navbar-form navbar-left margintop" role="search">
@@ -65,7 +65,7 @@
     <div class="tab-content sidetabs">
       <div class="tab-pane active" id="home">
         <ul class="sidemenu">
-          <li class="sidebar-header">Home</li>
+ 
           <li> <a href="#"> <span class="icon"><i class="fa fa-dashboard"></i></span> <span class="name">Dashboard</span> <span class="number pull-right"><span class="label label-primary">5</span></span> </a> </li>
           <li> <a href="#"> <span class="icon"><i class="fa fa-chain"></i></span> <span class="name">Transactions</span> <span class="arrow"><i class="arrow fa fa-angle-right pull-right"></i></span> </a>
             <ul class="sidebar-dropdown">
@@ -153,12 +153,16 @@
 </div>
 <!-- Header -->
 <section id="main-wrapper">
-  <ol class="breadcrumb subtitle pull-right">
+  <div class="row">
+  <div class="col-md-12 col-sm-12">
+    <ol class="breadcrumb subtitle pull-right">
     <li><a href="index.html">Home</a></li>
     <li>Elements</li>
     <li class="active">General</li>
   </ol>
   <h3 class="subtitle">General Elements</h3>
+  </div>
+  </div>
   <hr/>
   <div class="row">
     <div class="col-md-12">
@@ -246,7 +250,7 @@
                           <th>State </th>
                           <th>Complaint </th>
                           <th>Remarks</th>
-                          <th>&bsp;</th>
+                          <th>&nbsp;</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -318,8 +322,8 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Cancel</button>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Save</button>
+          <button type="button" class="btn btn-info">Cancel</button>
+          <button type="button" class="btn btn-primary " data-dismiss="modal">Save</button>
         </div>
       </div>
     </div>
@@ -344,7 +348,7 @@
 			</div>
 			<div class="modal-footer">
 
-			<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
 			</div>
 			</div>
 			</div>
@@ -403,7 +407,7 @@
 				  
 		<div class="popup_button">	
 		<button type="button" class="btn btn-primary">Proceed</button>
-		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+		  <button type="button" class="btn  btn-info" data-dismiss="modal">Close</button></div>
 				  
 			</div>
 		
