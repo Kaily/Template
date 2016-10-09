@@ -2647,7 +2647,10 @@ form.login {
 
 
 /*---=======================new css=============================--*/
-p { display:block; padding-bottom:10px;}
+
+
+
+p { display:block; padding-bottom:10px; font-size:14px;}
 .select-style {
     margin: 
     padding: 0;0;
@@ -2673,6 +2676,39 @@ p { display:block; padding-bottom:10px;}
 .select-style select:focus {
     outline: none;
 }
+.custom-box {
+    border: 1px solid hsl(0, 0%, 66%);
+    margin: 75px 0 30px;
+    padding: 50px 20px 10px;
+    text-align: center;
+    transition: border-color 0.4s linear 0s, color 0.4s linear 0s;
+}
+.custom-box .icn-main-container {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+.effect-slide-bottom.in {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+.custom-box .serviceicon {
+    background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+    border: 1px solid hsl(0, 0%, 66%);
+    border-radius: 500px;
+    color: hsl(40, 8%, 15%);
+    font-size: 50px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    z-index: 5;
+}
+
+
 .control-label-custom { text-align:left;}
 .complainid  lable{ float:left;  padding-bottom:10px;}
 .complainid  span{ float:right; font-weight:600;padding-bottom:10px;}
@@ -2707,10 +2743,51 @@ p { display:block; padding-bottom:10px;}
 .min_height_body { min-height:500px;}
 .ticketno_test { font-size:18px; text-align:center;}
 .popup_button{ text-align:center; display:block;}
+.header_top_wrap { background:#3ba0ff; padding:20px 0px; box-shadow:0 1px 3px #ccc;}
+.body_inner{ margin:30px 0px 10px 0px; display:block; width:100%;}
+.footer_wrap { background:#444; padding:20px 0px; text-align:center; color:#fff;}
+
+/*-=========home page==========--*/
+.navbar { border-radius:0px !important; }
+.headertop_bg { background:#8bc347; min-height:80px; width:100%; display:block; position:fixed; top:0px; left:0px; z-index:999; box-shadow:0 1px 2px #24a203;}
+.logohome { text-align:left;padding-top:10px;}
+.logon_button { text-align:right; padding-top:20px;}
+.welcome_text{ width:100%; text-align:center; padding:15px 0px; font-size:18px; line-height:24px; margin-top:80px;}
+.slider { width:100%; text-align:center; display:block; position:relative;}
+.slider img { width:100%; height:auto;}
+.slider_text { position:absolute; left:0px; top:0px; width:100%; display:block; z-index:9;}
+.text_bg { width:370px; height:370px; border-radius:100%; border:solid 15px rgba(0, 0, 0, 0.1); background:#fff;
+ position:absolute; top:50px; left:0px; padding:50px 20px;}
+.moduel_wrap { width:100%; display:block; margin-top:-100px; z-index:9;}
+.modual_box { box-shadow:0 1px 3px #ccc; border-top: solid 15px #a8d275; border-bottom:solid 5px #a8d275; background:#fff;}
+.modual_box2 { box-shadow:0 1px 3px #ccc; border-top: solid 15px #16bbd9; border-bottom:solid 5px #16bbd9; background:#fff;}
+.modual_box3 { box-shadow:0 1px 3px #ccc; border-top: solid 15px #fdb813; border-bottom:solid 5px #fdb813; background:#fff;}
+.modual_box4{ box-shadow:0 1px 3px #ccc; border-top: solid 15px #f02165; border-bottom:solid 5px #f02165; background:#fff;}
+.modual_box_img { position:relative;}
+.modual_box_img .btn-modual { position:absolute; top:40%; left:32%;}
+.modual_box_img img { width:100%; height:auto;}
+.modual_title { padding:0px 15px; display:block;}
+.modual_title h3 { font-size:18px; }
+.product_wrap { width:100%; padding:25px 0px; background:#f1f2f3; margin-top:50px;}
+.procuctbox { width:350px; height:350px; background:#fff; border: solid 15px rgba(0, 0, 0, 0.1);
+ float:right;  border-radius:100%; text-align:center; }
+ .procuctbox img { width:320px; height:320px; border-radius:100%;}
+.btn-login { background: rgba(0, 0, 0, 0.0); color:#fff; border:solid 1px #fff; padding:8px 20px; transition:all 0.8s ease-out; font-size:16px;}
+.btn-login:hover {background:#fff; color:#444; border:solid 1px #fff;	 }
+
+
+
+
+
+
+
 @media (max-width:487px) {
 
 	.newuser  li { margin-bottom:15px;}
 	.newuser  li  a { width:270px;}
-	
-	
+	.modual_box , .modual_box2, .modual_box3, .modual_box4 { margin-bottom:15px;}
+	.moduel_wrap { margin-top:-25px;}
+	.text_bg  {display:none;}
+	.procuctbox {width:290px; height:290px; margin-top:20px;}
+	.procuctbox img {width:260px; height:260px;}
 }
